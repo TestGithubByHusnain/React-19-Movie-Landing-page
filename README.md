@@ -26,7 +26,7 @@ A modern movie website built with React 19 and TMDB API, showcasing movies with 
 
 📥 Installation
 
-Clone the repository:
+Clone the Repository:
 
 git clone 
 
