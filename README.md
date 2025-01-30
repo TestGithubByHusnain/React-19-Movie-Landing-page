@@ -26,7 +26,7 @@ A modern movie website built with React 19 and TMDB API, showcasing movies with 
 
 📥 Installation
 
-Clone the Repository:
+Clone the Repository: https://github.com/TestGithubByHusnain/React-19-Movie-Landing-page.git
 
 git clone 
 
