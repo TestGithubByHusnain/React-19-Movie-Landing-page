@@ -1,0 +1,74 @@
+Components: 
+->Class Components(Old approach)
+
+class ClassComponent extends React.Component {
+    render() {
+        return <h2>Class component </h2>
+    }
+}
+Class component is used in old code but this is prefer it not to use it in today's world.
+
+->Function Component(Modern approach)
+
+Uses JavaScript functions.
+Uses React Hooks (useState, useEffect, etc.) for state and lifecycle management.
+More efficient and recommended in modern React development.
+
+Example:
+function MyComponent() {
+  return <h1>Hello from Function Component!</h1>;
+}
+
+--->Props:
+In React props short for properties area way to pass data from one component to another. You typically do it by passing properties to parent component to child component.
+Prop is in the form of string, number , boolean.
+Example:
+const card =({title})=>{
+    return (
+        <div>{title}</div>
+    )
+}
+
+const App=()=>{
+    return(
+        <div>
+
+<Card title="Star Wars" ratung={5} isCool={true} actors={[{name: 'Actors'}]} />
+<Card title="The lion king" />
+        </div>
+    )
+}
+
+
+--->State:
+State is like a raect component brain that holds information of react component that change over period of time.
+Example:
+import { useState} from 'react';
+const card =({title})=>{
+    const [hasLiked, setHasLiked] = useState(initialState: false);
+
+    return (
+        <div>{title}</div>
+        <button onClick={() =>setHasLiked(!hasLiked)}>{hasLiked ? 'Liked' : 'Like'}</button>
+    )
+}
+
+const App=()=>{
+    return(
+        <div>
+
+<Card title="Star Wars" ratung={5} isCool={true} actors={[{name: 'Actors'}]} />
+<Card title="The lion king" />
+        </div>
+    )
+}
+
+--->Hooks:
+React Hooks are functions that allow you to use state and lifecycle features in function components.
+1- useState (State Management)
+2- useEffect (Side Effects & Lifecycle)--> Used to fetching data from user
+3- useContext (Global State Management)
+4- useRef (Access DOM & Store Values)
+5- useCallback (optimizing call back funcctions)
+
+

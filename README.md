@@ -1,2 +1,8 @@
-# React-19-Movie-Landing-page
- I built a movie website using React 19 and the TMDB API, showcasing movies with their release year, ratings, and details. The site features a dynamic UI with seamless data fetching. It provides an engaging experience with smooth navigation and real-time movie updates..
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
